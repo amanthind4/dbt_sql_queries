@@ -1,0 +1,10 @@
+
+--Step 1: Create RAW schema
+-------------------------
+--Run this in Snowflake:
+
+CREATE DATABASE IF NOT EXISTS DBT_RETAIL;
+drop database AMANDEEP_THIND_RAW
+
+CREATE SCHEMA IF NOT EXISTS DBT_RETAIL.RAW;
+CREATE SCHEMA IF NOT EXISTS DBT_RETAIL.STAGING;
